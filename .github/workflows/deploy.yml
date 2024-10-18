@@ -26,8 +26,8 @@ jobs:
 
     - 
 
-      name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4.1.4
+      name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4.6.8
   
       with:
         branch: gh-pages
